@@ -28,4 +28,8 @@ footer {
 li {
   list-style: none;
 }
+.solid-line {
+  
+  border: 3px solid #FAEC21;
+}
 
