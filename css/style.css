@@ -1,3 +1,31 @@
-.solid-line {
-  border-top: 4px solid #FAEC21;
+.nav-item {
+
+  min-width: 200px;
 }
+.nav-tabs {
+  border: none;
+}
+
+.nav-link {
+  color: black;
+  text-align: center;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    text-align: center;
+    background-color: #0071BA;
+}
+#more {
+  display: none;
+}
+
+footer {
+  background: #FCD44D;
+  min-width: 500px;
+}
+
+li {
+  list-style: none;
+}
+
