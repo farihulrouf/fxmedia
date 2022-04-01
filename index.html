@@ -1,18 +1,74 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Landing Page - With Background Video Slider | Travel</title>
 
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css"
-   
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   </head>
   <body>
-   <div class="container-xl">
-   		<h3 class="mb-3">Bootstrap 5 Tabs</h3>
+
+    <header>
+      <a href="#" class="brand">Travel</a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <div class="navigation-items">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Explore</a>
+          <a href="#">Gallery</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="home">
+      <video class="video-slide active" src="videos/video1.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="videos/video2.mp4" autoplay muted loop></video>
+      <img class="video-slide" src="image/slider1.png">
+      <img class="video-slide" src="image/slider2.png">
+      <div class="content active">
+        <div>
+           <h2 style="font-size: 46px;">The Premier Family Club
+           </h2>
+           <p style="font-size:31px;">Where people make the difference</p>
+        </div>
+       
+      </div>
+      <div class="content">
+        <h1>Camping.<br><span>Enjoy</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="content">
+        <h1>Adventures.<br><span>Off Road</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="content">
+        <h1>Road Trip.<br><span>Together</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="content">
+        <h1>Feel Nature.<br><span>Relax</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#">Read More</a>
+      </div>
+      
+      <div class="slider-navigation">
+        <div class="nav-btn active"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+      </div>
+    </section>
+
+    <div class="container-xl">
         <ul class="nav nav-pills nav-tabs pt-4 pb-4">
             <li class="nav-item">
                 <a class="nav-link active" data-bs-toggle="tab" href="#home">
@@ -30,110 +86,110 @@
         <div class="tab-content">
             <div class="tab-pane active" id="home">
                <div class="row pt-4">
-               	<div class="col-12 col-md-6 col-lg-4">
-   				<div class="card border-0">
-   					<img src="image/asset1.png" class="card-img-top">
-   					<div class="card-body d-flex justify-content-center flex-column">			
-   						<h4 class="text-center text-uppercase">Sale of Ordinary Membership </br>at the club</h4>
-   						
-   						<hr class="solid-line"></hr>
-   						<p class="text-center">Purchase of membership directly from </br> the club</p>
-   					</div>
-   				</div>
-   			</div>
-   			<div class="col-12 col-md-6 col-lg-4">
-   				<div class="card border-0">
-   					<img src="image/asset2.png" class="card-img-top">
-   					<div class="card-body d-flex justify-content-center flex-column">			
-   						<h4 class="text-center text-uppercase">SOCIAL DANCE NIGHT</br>BLACK & WHITE NIGHT</h4>
-   						
-   						<hr class="solid-line"></hr>
-   						<p class="text-center">Come out and dance to a live band </br>and have the time of your life.</p>
-   					</div>
-   				</div>
-   			</div>
-   			<div class="col-12 col-md-6 col-lg-4">
-   				<div class="card border-0">
-   					<img src="image/asset3.png" class="card-img-top">
-   					<div class="card-body d-flex justify-content-center flex-column">			
-   						<h4 class="text-center text-uppercase">21ST SSC OPEN</br>INVITATIONAL MIDGET MEET 2015</h4>
-   						
-   						<hr class="solid-line"></hr>
-   						<p class="text-center">12 & 13 SEPTEMBER</br>Venue : Competition Pool</p>
-   					</div>
-   				</div>
-   			</div>
+                <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0">
+            <img src="image/asset1.png" class="card-img-top">
+            <div class="card-body d-flex justify-content-center flex-column">     
+              <h4 class="text-center text-uppercase">Sale of Ordinary Membership </br>at the club</h4>
+              
+              <hr class="solid-line"></hr>
+              <p class="text-center">Purchase of membership directly from </br> the club</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0">
+            <img src="image/asset2.png" class="card-img-top">
+            <div class="card-body d-flex justify-content-center flex-column">     
+              <h4 class="text-center text-uppercase">SOCIAL DANCE NIGHT</br>BLACK & WHITE NIGHT</h4>
+              
+              <hr class="solid-line"></hr>
+              <p class="text-center">Come out and dance to a live band </br>and have the time of your life.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0">
+            <img src="image/asset3.png" class="card-img-top">
+            <div class="card-body d-flex justify-content-center flex-column">     
+              <h4 class="text-center text-uppercase">21ST SSC OPEN</br>INVITATIONAL MIDGET MEET 2015</h4>
+              
+              <hr class="solid-line"></hr>
+              <p class="text-center">12 & 13 SEPTEMBER</br>Venue : Competition Pool</p>
+            </div>
+          </div>
+        </div>
 
-   			<div class="col-12 col-md-6 col-lg-4">
-   				<div class="card border-0">
-   					<img src="image/asset4.png" class="card-img-top">
-   					<div class="card-body d-flex justify-content-center flex-column">			
-   						<h4 class="text-center text-uppercase">ANNUAL 9-BALL</br>POOL COMPETITION</h4>
-   					
-   						<hr class="solid-line"></hr>
-   						<p>Time : 7pm (weekdays)</br>Venue : Billiards Room (Bowling Centre)</p>
-   					</div>
-   				</div>
-   			</div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0">
+            <img src="image/asset4.png" class="card-img-top">
+            <div class="card-body d-flex justify-content-center flex-column">     
+              <h4 class="text-center text-uppercase">ANNUAL 9-BALL</br>POOL COMPETITION</h4>
+            
+              <hr class="solid-line"></hr>
+              <p>Time : 7pm (weekdays)</br>Venue : Billiards Room (Bowling Centre)</p>
+            </div>
+          </div>
+        </div>
 
-   			<div class="col-12 col-md-6 col-lg-4">
-   				<div class="card border-0">
-   					<img src="image/asset5.png" class="card-img-top">
-   					<div class="card-body d-flex justify-content-center flex-column">			
-   						<h4 class="text-center text-uppercase">22ND TABLE TENNIS</br>EVERY SATURDAY</h4>
-   		
-   						<hr class="solid-line"></hr>
-   						<p class="text-center">Men's Singles / Doubles</br>Ladies' Singles / Doubles</br>Mixed Doubles </p>
-   					</div>
-   				</div>
-   			</div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0">
+            <img src="image/asset5.png" class="card-img-top">
+            <div class="card-body d-flex justify-content-center flex-column">     
+              <h4 class="text-center text-uppercase">22ND TABLE TENNIS</br>EVERY SATURDAY</h4>
+      
+              <hr class="solid-line"></hr>
+              <p class="text-center">Men's Singles / Doubles</br>Ladies' Singles / Doubles</br>Mixed Doubles </p>
+            </div>
+          </div>
+        </div>
 
-   			<div class="col-12 col-md-6 col-lg-4">
-   				<div class="card border-0">
-   					<img src="image/asset6.png" class="card-img-top">
-   					<div class="card-body d-flex justify-content-center flex-column">			
-   						<h4 class="text-center text-uppercase">Weekend Bazaar</br>INVITATIONAL MIDGET MEET 2015</h4>
-   						<hr class="solid-line"></hr>
-   						<p class="text-center">Time : 10am to 10pm</br>Venue : The Atrium</p>
-   					</div>
-   				</div>
-   			</div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0">
+            <img src="image/asset6.png" class="card-img-top">
+            <div class="card-body d-flex justify-content-center flex-column">     
+              <h4 class="text-center text-uppercase">Weekend Bazaar</br>INVITATIONAL MIDGET MEET 2015</h4>
+              <hr class="solid-line"></hr>
+              <p class="text-center">Time : 10am to 10pm</br>Venue : The Atrium</p>
+            </div>
+          </div>
+        </div>
                </div>
             </div>
             <div class="tab-pane" id="profile">
                 <div class="row pt-4">
-                	<div class="col-12 col-md-6 col-lg-4">
-		   				<div class="card border-0">
-		   					<img src="image/asset5.png" class="card-img-top">
-		   					<div class="card-body d-flex justify-content-center flex-column">			
-		   						<h4 class="text-center text-uppercase">22ND TABLE TENNIS </h4>
-		   						<h4 class="text-center text-uppercase">EVERY SATURDAY</h4>
-		   						<hr class="solid-line"></hr>
-		   						<p class="text-center">Purchase of membership directly from the club</p>
-		   					</div>
-		   				</div>
-   					</div>
+                  <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0">
+                <img src="image/asset5.png" class="card-img-top">
+                <div class="card-body d-flex justify-content-center flex-column">     
+                  <h4 class="text-center text-uppercase">22ND TABLE TENNIS </h4>
+                  <h4 class="text-center text-uppercase">EVERY SATURDAY</h4>
+                  <hr class="solid-line"></hr>
+                  <p class="text-center">Purchase of membership directly from the club</p>
+                </div>
+              </div>
+            </div>
                 </div>
             </div>
             <div class="tab-pane" id="contact">
                 <div class="row pt-4">
-                	<div class="col-12 col-md-6 col-lg-4">
-		   				<div class="card border-0">
-		   					<img src="image/asset5.png" class="card-img-top">
-		   					<div class="card-body d-flex justify-content-center flex-column">			
-		   						<h4 class="text-center text-uppercase">22ND TABLE TENNIS </h4>
-		   						<h4 class="text-center text-uppercase">EVERY SATURDAY</h4>
-		   						<hr class="solid-line"></hr>
-		   						<p class="text-center">Purchase of membership directly from the club</p>
-		   					</div>
-		   				</div>
-   					</div>
+                  <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0">
+                <img src="image/asset5.png" class="card-img-top">
+                <div class="card-body d-flex justify-content-center flex-column">     
+                  <h4 class="text-center text-uppercase">22ND TABLE TENNIS </h4>
+                  <h4 class="text-center text-uppercase">EVERY SATURDAY</h4>
+                  <hr class="solid-line"></hr>
+                  <p class="text-center">Purchase of membership directly from the club</p>
+                </div>
+              </div>
+            </div>
                 </div>
             </div>
             
         </div>
-   		<ul class="nav nav-pills nav-tabs pt-4 pb-4">
-   			<li class="nav-item">
+      <ul class="nav nav-pills nav-tabs pt-4 pb-4">
+        <li class="nav-item">
                 <a class="nav-link active" data-bs-toggle="tab" href="#upcoming">
                    Upcoming News</a>
             </li>
@@ -141,117 +197,157 @@
                 <a class="nav-link" data-bs-toggle="tab" href="#sale">
                  Sale of Ordinary Membership at the Club </a>
             </li>
-   		</ul>
-   		<div class="tab-content">
-   			<div class="tab-pane" id="upcoming">
-   				<div class="pt-4">
-	            	<p style="font-size: 24px;">
-	            		We are pleased to inform you that Members can now use their Credit Cards to make purchases at the week-end Bazaar stalls.<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
-						<button onclick="readMore()" id="myBtn" style="border: none; background: transparent; color: blue;">Read more</button></p>
-	            	</p>
-	            	<p style="font-size:24px;">
-	            		Come out and dance to a live band and have the time of your life. Gentlemen, this a chance to wear your tuxedos, and ladies find your little black dress that you have always wanted to wear
-	            	</p>
-            	</div>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane" id="upcoming">
+          <div class="pt-4">
+                <p style="font-size: 24px;">
+                  We are pleased to inform you that Members can now use their Credit Cards to make purchases at the week-end Bazaar stalls.<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
+            <button onclick="readMore()" id="myBtn" style="border: none; background: transparent; color: blue;">Read more</button></p>
+                </p>
+                <p style="font-size:24px;">
+                  Come out and dance to a live band and have the time of your life. Gentlemen, this a chance to wear your tuxedos, and ladies find your little black dress that you have always wanted to wear
+                </p>
+              </div>
             </div>
 
               <div class="tab-pane" id="sale">
-            	<p>
-            		We are pleased to inform you that Members can now use their Credit Cards to make purchases at the week-end Bazaar stalls.
-            	</p>
-            	
+              <p>
+                We are pleased to inform you that Members can now use their Credit Cards to make purchases at the week-end Bazaar stalls.
+              </p>
+              
             </div>
-   		</div>	
+      </div>  
    </div>
    <footer>
-	   	<div class="container-xl">
-	   		<div class="row pt-4 pb-4">
-	   			<div class="col-5">
-	   				<div class="d-flex gap-2 align-items-center">
-	   					<img src="image/logo.png" style="max-width: 120px;">
-	   					<div class="d-flex flex-column align-items-center">
-	   						<p>
-	   							45 Tanjong Rhu Road<br>
-	   							Singapore 436899
-	   						</p>
-	   						<p>
-	   							Tel  :	(65) 6342 3600<br>
-	   							Fax :	(65) 6344 4476
-	   						</p>
-	   					</div>
-	   				</div>
-	   				<div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="125" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:125px;width:300px;}</style><a href="https://www.embedgooglemap.net">how to embed google maps</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:125px;width:300px;}</style></div></div>
-	   				<div>
-	   					<p>Email Newsletters
-	   					</br>Subscribe to receive news in your inbox
-	   					</p>
-	   					<div class="d-flex flex-column gap-2" style="max-width:300px">
-	   						 <input 
+      <div class="container-xl">
+        <div class="row pt-4 pb-4">
+          <div class="col-12 col-md-6 col-lg-5">
+            <div class="d-flex gap-2 align-items-center">
+              <img src="image/logo.png" style="max-width: 120px;">
+              <div class="d-flex flex-column align-items-center">
+                <p>
+                  45 Tanjong Rhu Road<br>
+                  Singapore 436899
+                </p>
+                <p>
+                  Tel  :  (65) 6342 3600<br>
+                  Fax : (65) 6344 4476
+                </p>
+              </div>
+            </div>
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="125" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:125px;width:300px;}</style><a href="https://www.embedgooglemap.net">how to embed google maps</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:125px;width:300px;}</style></div></div>
+            <div>
+              <p>Email Newsletters
+              </br>Subscribe to receive news in your inbox
+              </p>
+              <div class="d-flex flex-column gap-2" style="max-width:300px">
+                 <input 
 
 
-	   						 type="email" class="form-control" id="text" placeholder="Email Address">
-	   					 	<a href="#" class="btn btn-primary btn-md active" role="button" aria-pressed="true">SUBSRIBE</a>
-	   					</div>
-	   					
-	   				</div>
-	   			</div>
-	   			<div class="col-2">
-	   				
-	   				
-	   					<p>Home</p>
-	   					<li>About Us</li>
-	   					<li>Brief Hostory</li>
-	   					<li>Club Milistones</li>
-	   					<li>Swimming Milistones</li>
-	   					<li>Management Committee </br> & Club Management</li>
-	   					<li>Club Directory</li>
-	   					<p class="pt-4">Club Buzz</p>
-	   					<li>Facilites</li>
-	   					<li>Sport</li>
-	   					<li>General</li>
+                 type="email" class="form-control" id="text" placeholder="Email Address">
+                <a href="#" class="btn btn-primary btn-md active" role="button" aria-pressed="true">SUBSRIBE</a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-2">
+            
+            
+              <p>Home</p>
+              <li>About Us</li>
+              <li>Brief Hostory</li>
+              <li>Club Milistones</li>
+              <li>Swimming Milistones</li>
+              <li>Management Committee </br> & Club Management</li>
+              <li>Club Directory</li>
+              <p class="pt-4">Club Buzz</p>
+              <li>Facilites</li>
+              <li>Sport</li>
+              <li>General</li>
 
-	   				
-	   			</div>
-	   			<div class="col-3">
-	   				<li>Membership</li>
-	   				<li>Membership Schemes</li>
-	   				<li>Reciprocal Schemes</li>
-	   				<li>Golfing Membership</li>
-	   				<li>Transfer Procdures & FAQ</li>
-	   				<li>Find Out More</li>
-	   				<p class="pt-4">
-	   					Banquet
-	   				</p>
-	   				<li class="pt-4">Photo Gallery</li>
-	   				<li>Sport</li>
-	   				<li>Swimming</li>
-	   				<li>Social</li>
-	   			</div>
-	   			<div class="col-2">
-	   				<li>Wine And Dine</li>
-	   				<li>Jakson Miller</li>
-	   				<li>Jade Phoenix</li>
-	   				<li>Cabana</li>
-	   				<li>Le Petit Tressor</li>
-	   				<li>The Delicatesen</li>
-	   				<li>Fountain Bar</li>
-	   				<li>D’Tanjong</li>
-	   				<li>D'Sports</li>
-	   				<li>D'Galaxy</li>
-	   				<li>Straits of Malacca</li>
-	   				<li class="pt-4">What's New<li>
-	   				<li>Sport</li>
-	   				<li>Swimming</li>
-	   				<li>Social</li>
-	   			</div>
-	   		</div>
-	   	<div>
+            
+          </div>
+          <div class="col-12 col-md-6 col-lg-2">
+            <li>Membership</li>
+            <li>Membership Schemes</li>
+            <li>Reciprocal Schemes</li>
+            <li>Golfing Membership</li>
+            <li>Transfer Procdures & FAQ</li>
+            <li>Find Out More</li>
+            <p class="pt-4">
+              Banquet
+            </p>
+            <li class="pt-4">Photo Gallery</li>
+            <li>Sport</li>
+            <li>Swimming</li>
+            <li>Social</li>
+          </div>
+          <div class="col-12 col-md-6 col-lg-2">
+            <li>Wine And Dine</li>
+            <li>Jakson Miller</li>
+            <li>Jade Phoenix</li>
+            <li>Cabana</li>
+            <li>Le Petit Tressor</li>
+            <li>The Delicatesen</li>
+            <li>Fountain Bar</li>
+            <li>D’Tanjong</li>
+            <li>D'Sports</li>
+            <li>D'Galaxy</li>
+            <li>Straits of Malacca</li>
+            <li class="pt-4">What's New<li>
+            <li>Sport</li>
+            <li>Swimming</li>
+            <li>Social</li>
+          </div>
+        </div>
+      <div>
 
    </footer>
 
- 	<script type="text/javascript" src="js/app.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-   
+    <script type="text/javascript">
+    //Javacript for responsive navigation menu
+    const menuBtn = document.querySelector(".menu-btn");
+    const navigation = document.querySelector(".navigation");
+
+    menuBtn.addEventListener("click", () => {
+      menuBtn.classList.toggle("active");
+      navigation.classList.toggle("active");
+    });
+
+    //Javacript for video slider navigation
+    const btns = document.querySelectorAll(".nav-btn");
+    const slides = document.querySelectorAll(".video-slide");
+    const contents = document.querySelectorAll(".content");
+
+    var sliderNav = function(manual){
+      btns.forEach((btn) => {
+        btn.classList.remove("active");
+      });
+
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+
+      contents.forEach((content) => {
+        content.classList.remove("active");
+      });
+
+      btns[manual].classList.add("active");
+      slides[manual].classList.add("active");
+      contents[manual].classList.add("active");
+    }
+
+    btns.forEach((btn, i) => {
+      btn.addEventListener("click", () => {
+        sliderNav(i);
+      });
+    });
+    </script>
+
+
   </body>
 </html>
